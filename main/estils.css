@@ -1,0 +1,102 @@
+body {
+    margin: 0 20%;
+    font-size: 1.25rem;
+}
+
+.botons-list-style button ul li {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+/* list-style */
+
+.square {
+    list-style: square;
+}
+
+.url {
+    list-style: url('/banana.svg');
+}
+
+.none {
+    list-style: none;
+}
+
+.georgian-inside {
+    list-style: georgian;
+
+}
+
+.georgian-outside {
+    list-style: georgian;
+}
+
+.decimal {
+    list-style: decimal;
+}
+
+/* list-style-type */
+
+.disc {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.emoji {
+    list-style-type: "\1F60F";
+}
+
+/* list-style-image */
+
+.linear-gradient {
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+/* list-style-position */
+
+.inside {
+    list-style: inside;
+}
+
+.outside {
+    list-style-position: outside;
+}
+
+/* Animacio article hover */
+
+/* article section {
+    height: 0;
+    overflow: hidden;
+    transition: all 2s;
+}
+
+article:hover section {
+    transition: all 2s;
+    height: 300px;
+    overflow: visible;
+} */
+
+
+/* Checkbox */
+input {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+input~section {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 2s;
+}
+
+input:checked~section {
+    transition: all 2s;
+    height: 500px;
+    opacity: 100%;
+    overflow: visible;
+}

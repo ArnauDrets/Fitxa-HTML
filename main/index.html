@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estils.css">
+        <title>list-style</title>
+    </head>
+    <body>
+        <!-- <div>
+            <input type="checkbox" id="check1"><label for="check1">Check 1</label>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum assumenda illo eligendi est error eius nihil deleniti culpa corrupti? A excepturi ab sed voluptate aliquam hic delectus, voluptatibus magnam fugiat.</p>
+        </div>
+        <div>
+            <input type="checkbox" id="check2"><label for="check2">Check 2</label>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, aspernatur id quod dolores, soluta sed ipsa esse quasi unde tenetur quaerat ut veritatis animi adipisci, sequi molestias minima enim corporis.</p>
+        </div>
+        <div>
+            <input type="checkbox" id="check3"><label for="check3">Check 3</label>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis minima quis libero maxime eos optio odit eius ad, veniam ipsa nihil nostrum architecto eum sit ratione velit explicabo voluptatum deleniti.</p>
+        </div> -->
+        <article>
+            <input type="checkbox" id="checkImportancia"><label for="checkImportancia"><h1>Importància de list-style</h1></label>
+            <section>
+                <p>Les llistes en CSS són una de les propietats que utilitzem frequentment, per tant és necessari saber utilitzar els estils d'aquests.
+                </p>
+                <ul>
+                    <li>Valor predeterminat: disc outside none.
+                    </li>
+                    <li>Herencia: Si.
+                    </li>
+                    <li>Animable: No.
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <article>
+            <input type="checkbox" id="checkExemple"><label for="checkExemple"><h1>Exemple de
+                <em>list-style</em>
+            </h1></label>
+            <section>
+                <pre>
+            .square {
+                list-style: square;
+            }
+            
+            .inside {
+                list-style: inside;
+            }
+</pre>
+                <div class="botons-list-style">
+                    <button>
+                        <ul>
+                            <li>default</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="square">square</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="inside">inside</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="url">url</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="none">none</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="georgian-inside">georgian</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="decimal">decimal</li>
+                        </ul>
+                    </button>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <input type="checkbox" id="checkEstructuracio"><label for="checkEstructuracio"><h1>Estructuració</h1></label>
+            <section>
+                <p>Per estructurar bé el css de list-style s'ha de seguir un ordre de estructuració concret.</p>
+<pre>
+    <b>/* tipus | imatge | posició */</b>
+
+    list-style: lower-roman url("../img/shape.png") outside;
+</pre>
+            </section>
+        </article>
+        <article>
+            <input type="checkbox" id="checkValors"><label for="checkValors"><h1>Valors</h1></label>
+            <section>
+                <p>Hi han varis valors que donen més joc a l'hora de decorar les teves llistes.</p>
+                <h3>
+                    <li>list-style-type:</li>
+                </h3>
+                <div class="botons-list-style">
+                    <button>
+                        <ul>
+                            <li class="disc">disc</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="circle">circle</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="emoji">emoji</li>
+                        </ul>
+                    </button>
+                </div><br><h3>
+                    <li>list-style-image:</li>
+                </h3>
+                <p>La propietat estableix una imatge que s'utilitzarà com a marcador d'elements de la llista.</p>
+                <div class="botons-list-style">
+                    <button>
+                        <ul>
+                            <li class="linear-gradient">linear-gradient</li>
+                        </ul>
+                    </button>
+                </div><br><h3>
+                    <li>list-style-position:</li>
+                </h3>
+                <div class="botons-list-style">
+                    <button>
+                        <ul>
+                            <li class="inside">inside</li>
+                        </ul>
+                    </button>
+                    <button>
+                        <ul>
+                            <li class="outside">outside</li>
+                        </ul>
+                    </button>
+                </div><br><p>Per lo general, tot el que es pot fer en les variacions de type, image i position es pot fer en el mateix list-style</p>
+            </section>
+        </article>
+    </body>
+</html>
