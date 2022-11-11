@@ -1,0 +1,75 @@
+body {
+  margin: 0 5%;
+  font-size: 1.25rem;
+}
+
+h1 {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+p {
+  font-size: 25px;
+  color: black;
+  background-color: transparent;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+label {
+  font-size: 35px;
+}
+
+.decimalRGB {
+  background-color: rgb(71, 98, 176);
+}
+
+.percentatgeRGB {
+  background-color: rgb(27%, 38%, 69%);
+}
+
+.hexadecimalRGB {
+  background-color: #4762b0;
+}
+
+.HSL {
+  background-color: hsl(225, 42.5%, 48.4%);
+}
+
+.HSLA {
+  background-color: hsla(225, 42.5%, 48.4%, 0.75);
+}
+
+input {
+  display: none;
+}
+
+input ~ p,
+img {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+input:checked ~ p {
+  max-height: 100vh;
+  overflow: auto;
+}
+
+input:checked ~ img {
+  max-height: 100vh;
+  overflow: auto;
+}

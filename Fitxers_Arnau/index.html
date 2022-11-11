@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Background color</h1>
+    <div>
+      <article>
+        <input type="checkbox" id="explain" />
+        <label for="explain">Explicació</label>
+        <p>
+          La propietat background-color no s'hereda, el valor inicial del
+          background-color es el transparent, pero es pot omplir per a establir
+          el color de fons d'un element. CSS defineix 17 paraules clau en el
+          sistema per a referirse als colors basics de fons. Hi ha altres
+          maneres de utilitzar el background-color sense haver de posar ninguna
+          de les 17 paraules claus dels colors.
+        </p>
+        <img src="colors.png" style="width: 500px" />
+      </article>
+      <article>
+        <input type="checkbox" id="rgb" />
+        <label for="rgb">RGB Value</label>
+        <p>
+          Hi ha tres maneres de ficar RGB al nostre background-color, amb
+          decimal, amb percentatge i amb hexadecimal <br /><br />
+          - RGB decimal -->
+          <span class="decimalRGB">background-color: rgb(71, 98, 176);</span>
+          <br />
+          - RGB percentatge -->
+          <span class="percentatgeRGB"
+            >background-color: rgb(27%, 38%, 69%);</span
+          >
+          <br />
+          - RGB hexadecimal -->
+          <span class="hexadecimalRGB">background-color:#4762B0; </span>
+        </p>
+      </article>
+      <article>
+        <input type="checkbox" id="hsl" />
+        <label for="hsl">HSL Value</label>
+        <p>
+          Les sigles signifique HSLA(hue, saturation, lightness, alpha). <br />
+          - Hue: Defineix un gran al cercle del color, vermell (-0 o 360), verd
+          (120), blau (240).<br />
+          - Saturation: <br />
+          - Lightness: <br />
+          - Alpha: <br />Hi ha dos maneres de definir el background-color amb
+          HSL. <br /><br />
+          - HSL -->
+          <span class="HSL">background-color: hsl(225, 42.5%, 48.4%);</span>
+          <br />
+          - HSLA -->
+          <span class="HSLA"
+            >background-color: hsla(225, 42.5%, 48.4%, 0.75);</span
+          >
+        </p>
+      </article>
+    </div>
+  </body>
+</html>
